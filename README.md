@@ -22,6 +22,7 @@ We performed SQL queries to further interrogate the dataset and gain insights in
 
 ### Part 6 - Interactive Maps and Dashboards
 We built an interactive map using Folium to visualize the launch sites as well as a Plotly Dashboard.
+The Plotly Dashboard has been deployed to Render.com using the free hosting plan and is available at the following URL: https://ibm-applied-data-science-capstone-0esu.onrender.com.
 
 ### Part 7 - Predictive Analysis using Classification Models
 In this phase, we standardized the data and split it into training and test sets. We created machine learning models using: 
