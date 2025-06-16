@@ -14,6 +14,8 @@ min_payload = spacex_df['Payload Mass (kg)'].min()
 # Create a dash application
 app = dash.Dash(__name__)
 
+server = app.server  # REQUIRED for gunicorn
+
 dropdown_options=[{'label': 'All Sites', 'value': 'ALL'},
     {'label': 'CCAFS LC-40', 'value': 'CCAFS LC-40'},
     {'label': 'VAFB SLC-4E', 'value': 'VAFB SLC-4E'},
